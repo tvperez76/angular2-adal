@@ -13,7 +13,7 @@
       "dom"
     ],
     "types": [
-      "adal"
+      "adal-angular"
     ]
   },
   "exclude": [

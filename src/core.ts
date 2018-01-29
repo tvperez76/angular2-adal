@@ -1,2 +1,2 @@
-export {AdalService, OAuthData, AuthHttp} from './services';
-export { AdalModule, AuthHttpModule } from './modules';
+export { AdalService, OAuthData } from './services';
+export { AdalModule } from './modules';

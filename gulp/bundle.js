@@ -13,8 +13,7 @@ const bundleConfig = {
     ],
     paths: {
         'npm:': './node_modules/',
-        'ng2-adal/*': '*',
-        '@angular/*': './node_modules/@angular/*',
+        'simple-angular-adal/*': '*',
         'adal-angular': './node_modules/adal-angular/lib/adal.js',
         '*': './node_modules/*'
     },
@@ -27,7 +26,6 @@ const bundleConfig = {
         'rxjs': 'npm:rxjs'
     },
     packages: {
-
         'rxjs': {
             main: 'Rx.js',
             defaultExtension: 'js'
@@ -50,11 +48,11 @@ function bundle(moduleName, moduleBundleName, minify, done) {
 }
 
 gulp.task('bundle:cjs', ['scripts:cjs'], (done) => {
-    bundle('ng2-adal/core', 'ng2-adal', false, done);
+    bundle('simple-angular-adal/core', 'simple-angular-adal', false, done);
 });
 
 gulp.task('bundle:cjs:min', ['scripts:cjs'], (done) => {
-    bundle('ng2-adal/core', 'ng2-adal', true, done);
+    bundle('simple-angular-adal/core', 'simple-angular-adal', true, done);
 });
 
 gulp.task('bundle', ['bundle:cjs', 'bundle:cjs:min']);
