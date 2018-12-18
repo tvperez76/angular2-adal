@@ -4,7 +4,7 @@
 
 _Latest Version **v<%= pkg.version %>**
 
-_Upgraded to Angular 5.x
+_Upgraded to Angular 7.x
 
 ## Table of contents:
 - [Get Started](#get-started)
