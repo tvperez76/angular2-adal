@@ -35,14 +35,15 @@
         "gulp": "gulp"
     },
     "dependencies": {
-        "@angular/common": "^5.1.0",
-        "@angular/compiler": "^5.1.0",
-        "@angular/core": "^5.1.0",
-        "@angular/http": "^5.1.0",
-        "@angular/platform-browser": "^5.1.0",
+        "@angular/common": "^7.0.0",
+        "@angular/compiler": "^7.0.0",
+        "@angular/core": "^7.0.0",
+        "@angular/http": "^7.0.0",
+        "@angular/platform-browser": "^7.0.0",
         "adal-angular": "1.0.15",
         "reflect-metadata": "^0.1.10",
-        "rxjs": "^5.5.6",
+        "rxjs": "^6.3.3",
+        "rxjs-compat": "^6.3.3",
         "zone.js": "^0.8.18"
     },
     "devDependencies": {
@@ -63,6 +64,6 @@
         "require-dir": "^0.3.0",
         "run-sequence": "^1.2.1",
         "systemjs-builder": "^0.16.3",
-        "typescript": "^2.5.0"
+        "typescript": "^3.0.0"
     }
 }

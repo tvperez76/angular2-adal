@@ -23,11 +23,18 @@ const bundleConfig = {
         '@angular/compiler': 'npm:@angular/compiler/bundles/compiler.umd.js',
         '@angular/platform-browser': 'npm:@angular/platform-browser/bundles/platform-browser.umd.js',
         '@angular/http': 'npm:@angular/http/bundles/http.umd.js',
-        'rxjs': 'npm:rxjs'
+        'rxjs': 'npm:rxjs',
+        'rxjs-compat': 'npm:rxjs-compat'
     },
     packages: {
-        'rxjs': {
-            main: 'Rx.js',
+        'rxjs': { 'main': 'index.js', 'defaultExtension': 'js' },
+        'rxjs/operators': { 'main': 'index.js', 'defaultExtension': 'js' },
+        'rxjs/internal-compatibility': { 'main': 'index.js', 'defaultExtension': 'js' },
+        'rxjs/testing': { 'main': 'index.js', 'defaultExtension': 'js' },
+        'rxjs/ajax': { 'main': 'index.js', 'defaultExtension': 'js' },
+        'rxjs/webSocket': { 'main': 'index.js', 'defaultExtension': 'js' },
+        'rxjs-compat': {
+            main: 'index.js',
             defaultExtension: 'js'
         }
     }

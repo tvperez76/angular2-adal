@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Observable } from 'rxjs/Observable';
+import { Observable } from 'rxjs';
 import 'rxjs/add/observable/bindCallback';
 import { UserInfo, AuthenticationContextOptions } from 'adal-angular/index';
 

@@ -1,6 +1,6 @@
 # simple-angular-adal
 
-`master` branch of this repo is now Angular 5+ compatible.
+`master` branch of this repo is now Angular 7+ compatible.
 
 **BREAKING CHANGE**: Make sure you're importing AdalService like this: `import { AdalService } from "simple-angular-adal/dist/core"`
 
